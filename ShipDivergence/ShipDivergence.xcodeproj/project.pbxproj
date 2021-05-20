@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F32F1202655B5B600A61D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F11F2655B5B600A61D41 /* AppDelegate.swift */; };
+		9F32F1242655B5B600A61D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F1232655B5B600A61D41 /* ViewController.swift */; };
+		9F32F1292655B5C100A61D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F32F1282655B5C100A61D41 /* Assets.xcassets */; };
+		9F32F12C2655B5C100A61D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F32F12A2655B5C100A61D41 /* LaunchScreen.storyboard */; };
+		9F32F1382655B7E300A61D41 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F1372655B7E300A61D41 /* Map.swift */; };
+		9F32F13C2655B7EB00A61D41 /* MapDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F13B2655B7EB00A61D41 /* MapDelegate.swift */; };
+		9F32F13F2655B8DB00A61D41 /* MapRoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F13E2655B8DB00A61D41 /* MapRoad.swift */; };
+		9F32F1422655B98000A61D41 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F1412655B98000A61D41 /* Point.swift */; };
+		9F32F1462655B9E800A61D41 /* MapShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F1452655B9E800A61D41 /* MapShip.swift */; };
+		9F32F14B2655BA9F00A61D41 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F14A2655BA9F00A61D41 /* Math.swift */; };
+		9F32F14F2655BAA500A61D41 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F14E2655BAA500A61D41 /* Line.swift */; };
+		9F32F1522655BAC500A61D41 /* GADivergence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F1512655BAC500A61D41 /* GADivergence.swift */; };
+		9F32F1632655BD9300A61D41 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F1622655BD9300A61D41 /* Ship.swift */; };
+		9F32F1662655BDC100A61D41 /* Road.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32F1652655BDC100A61D41 /* Road.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F32F11C2655B5B500A61D41 /* ShipDivergence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShipDivergence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F32F11F2655B5B600A61D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F32F1232655B5B600A61D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F32F1282655B5C100A61D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F32F12B2655B5C100A61D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F32F12D2655B5C100A61D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F32F1372655B7E300A61D41 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		9F32F13B2655B7EB00A61D41 /* MapDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDelegate.swift; sourceTree = "<group>"; };
+		9F32F13E2655B8DB00A61D41 /* MapRoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRoad.swift; sourceTree = "<group>"; };
+		9F32F1412655B98000A61D41 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		9F32F1452655B9E800A61D41 /* MapShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapShip.swift; sourceTree = "<group>"; };
+		9F32F14A2655BA9F00A61D41 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		9F32F14E2655BAA500A61D41 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		9F32F1512655BAC500A61D41 /* GADivergence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADivergence.swift; sourceTree = "<group>"; };
+		9F32F1622655BD9300A61D41 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		9F32F1652655BDC100A61D41 /* Road.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F32F1192655B5B500A61D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F32F1132655B5B500A61D41 = {
+			isa = PBXGroup;
+			children = (
+				9F32F11E2655B5B500A61D41 /* ShipDivergence */,
+				9F32F11D2655B5B500A61D41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F32F11D2655B5B500A61D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F32F11C2655B5B500A61D41 /* ShipDivergence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F32F11E2655B5B500A61D41 /* ShipDivergence */ = {
+			isa = PBXGroup;
+			children = (
+				9F32F1362655B7D200A61D41 /* Map */,
+				9F32F1232655B5B600A61D41 /* ViewController.swift */,
+				9F32F11F2655B5B600A61D41 /* AppDelegate.swift */,
+				9F32F1282655B5C100A61D41 /* Assets.xcassets */,
+				9F32F12A2655B5C100A61D41 /* LaunchScreen.storyboard */,
+				9F32F12D2655B5C100A61D41 /* Info.plist */,
+			);
+			path = ShipDivergence;
+			sourceTree = "<group>";
+		};
+		9F32F1362655B7D200A61D41 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9F32F1492655BA9400A61D41 /* Math */,
+				9F32F1442655B9AC00A61D41 /* DTO */,
+				9F32F1372655B7E300A61D41 /* Map.swift */,
+				9F32F13B2655B7EB00A61D41 /* MapDelegate.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		9F32F1442655B9AC00A61D41 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				9F32F13E2655B8DB00A61D41 /* MapRoad.swift */,
+				9F32F1452655B9E800A61D41 /* MapShip.swift */,
+				9F32F1412655B98000A61D41 /* Point.swift */,
+			);
+			name = DTO;
+			sourceTree = "<group>";
+		};
+		9F32F1492655BA9400A61D41 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				9F32F1682655BE7D00A61D41 /* Genetic */,
+				9F32F14A2655BA9F00A61D41 /* Math.swift */,
+				9F32F14E2655BAA500A61D41 /* Line.swift */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		9F32F1682655BE7D00A61D41 /* Genetic */ = {
+			isa = PBXGroup;
+			children = (
+				9F32F1512655BAC500A61D41 /* GADivergence.swift */,
+				9F32F1652655BDC100A61D41 /* Road.swift */,
+				9F32F1622655BD9300A61D41 /* Ship.swift */,
+			);
+			name = Genetic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F32F11B2655B5B500A61D41 /* ShipDivergence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F32F1302655B5C100A61D41 /* Build configuration list for PBXNativeTarget "ShipDivergence" */;
+			buildPhases = (
+				9F32F1182655B5B500A61D41 /* Sources */,
+				9F32F1192655B5B500A61D41 /* Frameworks */,
+				9F32F11A2655B5B500A61D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShipDivergence;
+			productName = ShipDivergence;
+			productReference = 9F32F11C2655B5B500A61D41 /* ShipDivergence.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F32F1142655B5B500A61D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					9F32F11B2655B5B500A61D41 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 9F32F1172655B5B500A61D41 /* Build configuration list for PBXProject "ShipDivergence" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F32F1132655B5B500A61D41;
+			productRefGroup = 9F32F11D2655B5B500A61D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F32F11B2655B5B500A61D41 /* ShipDivergence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F32F11A2655B5B500A61D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F32F12C2655B5C100A61D41 /* LaunchScreen.storyboard in Resources */,
+				9F32F1292655B5C100A61D41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F32F1182655B5B500A61D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F32F13F2655B8DB00A61D41 /* MapRoad.swift in Sources */,
+				9F32F1522655BAC500A61D41 /* GADivergence.swift in Sources */,
+				9F32F1242655B5B600A61D41 /* ViewController.swift in Sources */,
+				9F32F1662655BDC100A61D41 /* Road.swift in Sources */,
+				9F32F1422655B98000A61D41 /* Point.swift in Sources */,
+				9F32F13C2655B7EB00A61D41 /* MapDelegate.swift in Sources */,
+				9F32F1382655B7E300A61D41 /* Map.swift in Sources */,
+				9F32F1632655BD9300A61D41 /* Ship.swift in Sources */,
+				9F32F1462655B9E800A61D41 /* MapShip.swift in Sources */,
+				9F32F14F2655BAA500A61D41 /* Line.swift in Sources */,
+				9F32F1202655B5B600A61D41 /* AppDelegate.swift in Sources */,
+				9F32F14B2655BA9F00A61D41 /* Math.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F32F12A2655B5C100A61D41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F32F12B2655B5C100A61D41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F32F12E2655B5C100A61D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F32F12F2655B5C100A61D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F32F1312655B5C100A61D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 754HVLWMVC;
+				INFOPLIST_FILE = ShipDivergence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = df.ShipDivergence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F32F1322655B5C100A61D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 754HVLWMVC;
+				INFOPLIST_FILE = ShipDivergence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = df.ShipDivergence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F32F1172655B5B500A61D41 /* Build configuration list for PBXProject "ShipDivergence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F32F12E2655B5C100A61D41 /* Debug */,
+				9F32F12F2655B5C100A61D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F32F1302655B5C100A61D41 /* Build configuration list for PBXNativeTarget "ShipDivergence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F32F1312655B5C100A61D41 /* Debug */,
+				9F32F1322655B5C100A61D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F32F1142655B5B500A61D41 /* Project object */;
+}
