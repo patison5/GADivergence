@@ -9,8 +9,13 @@ import UIKit
 
 class Ship: UIImageView {
 
+	/// Ссылка на путь
 	let road: Road
+
+	/// Скорость корабля
 	let speed: Double
+
+	/// Радиус безопасной зоны корабля
 	let radius: Double
 
 	/// Текущая позиция корабля

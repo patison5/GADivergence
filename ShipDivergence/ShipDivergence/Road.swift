@@ -9,20 +9,31 @@ import Foundation
 
 class Road: NSObject {
 
+	/// Ссылка на корабль
 	weak var ship: Ship?
 
+	/// Старовая точка маршрута
 	let start: Point
+
+	/// Финишная точка маршрута
 	let finish: Point
+
+	/// Набор точек внутри всего маршрута
 	var wayDots: [Point]
+	
+	/// Присутствует столкновение на пути
 	var hasCollision: Bool = false
 
 	/// Закончен ли маршрут
 	var isFinished: Bool = false
+
+	/// Шаг итерации по маршруту
 	var step: Int = 0
+
 	/// Оставшийся путь до конца маршрута
 	lazy var remainedDistance: Double = Math.hypotenusus(start: start, finish: finish)
-	
 
+	/// Полная дистанция маршрута
 	lazy var fullDistance: Double = {
 		var distance = 0.0
 		for i in 0..<fullRoad.count - 1 {
@@ -33,6 +44,7 @@ class Road: NSObject {
 		return distance
 	}()
 
+	/// Полный маршрут (набор точек маршрута)
 	lazy var fullRoad: [Point] = {
 		var fullRoad: [Point] = []
 		fullRoad.append(start)
